@@ -1,0 +1,75 @@
+@import url("./fonts.css");
+
+:root {
+  --Abel: Abel, cursive;
+  --Anton: Anton, cursive;
+  --textbox-width: 80%;
+  --text-box-height: 5vh;
+  --textbox-margin-left: 3.8rem;
+  --textbox-border-style: solid;
+  --textbox-border-colour: black;
+  --textbox-border-radius: 0.9rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--Abel);
+}
+
+label {
+  margin-left: 17rem;
+  font-size: 1.5rem;
+}
+
+.Login-heading {
+  margin-left: 16rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.login-container {
+  background-color: rgb(42, 4, 146);
+  border-style: double;
+  width: 50%;
+  height: 50vh;
+  margin-left: 22rem;
+  margin-top: 5rem;
+  border-radius: 0.9rem;
+}
+
+#txtUsername {
+  margin-top: 1rem;
+  width: var(--textbox-width);
+  height: var(--text-box-height);
+  border-style: var(--textbox-border-style);
+  border-color: var(--textbox-border-colour);
+  margin-left: var(--textbox-margin-left);
+  border-radius: var(--textbox-border-radius);
+  font-size: 1.3rem;
+}
+
+#txtPassword {
+  margin-top: 1rem;
+  width: var(--textbox-width);
+  height: var(--text-box-height);
+  border-style: var(--textbox-border-style);
+  border-color: var(--textbox-border-colour);
+  margin-left: var(--textbox-margin-left);
+  border-radius: var(--textbox-border-radius);
+}
+
+#btnLogin {
+  margin-top: 2rem;
+  width: 50%;
+  height: 6vh;
+  margin-left: 10rem;
+  border-radius: 0.3rem;
+  background-color: blueviolet;
+  font-size: 1.1rem;
+}
+
+#btnLogin:hover {
+  background-color: rgb(38, 6, 68);
+  cursor: pointer;
+}
